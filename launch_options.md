@@ -1,0 +1,280 @@
+- `-yieldcycles`: Likely related to CPU yield cycles for performance tuning.
+- `-glmdisableclipplanes`, `-glmenableclipplane`: Enable or disable OpenGL clipping planes.
+- `-glmdualshaders`: Enable dual shaders in OpenGL.
+- `-glmenabletrustblit`, `-glmdisabletrustblit`: Enable or disable trusted blit operations in OpenGL.
+- `-glmenablefakesrgb`: Enable fake sRGB in OpenGL.
+- `-glmenableperfpackage`, `-glmdisableperfpackage`: Enable or disable performance packages in OpenGL.
+- `-gl_enable_scaled_resolve`, `-gl_force_enable_scaled_resolve`: Enable scaled resolve in OpenGL.
+- `-glmenablemallocworkaround`, `-glmdisablemallocworkaround`: Enable or disable malloc workarounds.
+- `-fakeleopard`: Possibly related to macOS compatibility.
+- `-glmrenderer0`, `-glmrenderer1`, `-glmrenderer2`, `-glmrenderer3`: Select different OpenGL renderers.
+- `-gl_debug`: Enable OpenGL debugging.
+- `-nomousegrab`, `-mousegrab`: Control mouse grabbing behavior.
+- `-glmnosystemcheck`: Disable system checks for OpenGL.
+- `-gl_dump_strings`: Dump OpenGL strings for debugging.
+- `-exclusivefs`: Enable exclusive fullscreen mode.
+- `-nonqwerty`: Enable non-QWERTY keyboard layouts.
+- `-fullscreen`: Start the game in fullscreen mode.
+- `-ref`: Possibly related to rendering or refresh rate.
+- `-resizing`: Enable window resizing.
+- `-mat_vsync`: Enable vertical synchronization.
+- `-game`, `-vproject`: Specify the game or project directory.
+- `-no_compressed_vvds`: Disable compressed vertex data.
+- `-condebug`: Enable console debugging.
+- `-conclearlog`: Clear the console log.
+- `-usegh`: Possibly related to graphics hardware usage.
+- `-consoledebug`: Enable console debugging.
+- `-noassert`: Disable assertions.
+- `-basedir`: Specify the base directory.
+- `-textmode`: Enable text mode.
+- `-nominidumps`: Disable mini-dumps.
+- `-steam`: Enable Steam integration.
+- `-deathsonly`: Log only deaths.
+- `-snoforceformat`: Disable forced sound format.
+- `-wavonly`: Use only WAV sound files.
+- `-forcesound`: Force sound usage.
+- `-nosound`: Disable sound.
+- `-sndcachedebug`: Enable sound cache debugging.
+- `-snd_openal`: Use OpenAL for sound.
+- `-makereslists`: Create resource lists.
+- `-spewsentences`: Output sentence data.
+- `-nomaster`: Disable master server.
+- `-internalbuild`: Enable internal build settings.
+- `-nopreload`, `-nopreloadmodels`, `-nopreloadsounds`: Disable preloading of models or sounds.
+- `-preload`: Enable preloading.
+- `-nulldevice`: Use a null device.
+- `-timedemo_comment`: Add a comment to the timedemo.
+- `-demo`: Enable demo mode.
+- `-buildcubemaps`: Build cubemaps.
+- `-navanalyze`: Analyze navigation data.
+- `-navforceanalyze`: Force navigation analysis.
+- `-exit`: Exit the game.
+- `-timedemoloop`: Loop the timedemo.
+- `-forcestartupmenu`: Force the startup menu.
+- `-dev`: Enable developer mode.
+- `+map`, `+connect`, `+playdemo`, `+timedemo`, `+timedemoquit`, `+load`: Execute specific commands on startup.
+- `-default`: Use default settings.
+- `-uselogdir`: Use a specific log directory.
+- `-audiolanguage`: Set the audio language.
+- `-dxlevel`: Set the DirectX level.
+- `-console`, `-rpt`: Enable console or report mode.
+- `-makedevshots`: Create developer screenshots.
+- `-usedevshotsfile`: Use a developer screenshots file.
+- `-dti`: Enable DTI (Dynamic Texture Interface).
+- `-tvmasteronly`: Enable TV master mode only.
+- `-forcexboxreconfig`: Force Xbox reconfiguration.
+- `-tools`: Enable tools mode.
+- `-insecure`, `-textmode`: Enable insecure mode or text mode.
+- `-pme`: Enable PME (Performance Monitoring Events).
+- `-allowdebug`, `-nodev`: Allow or disallow debugging.
+- `-nocrashdialog`: Disable crash dialogs.
+- `-nogamedll`: Disable game DLL loading.
+- `-replay`: Enable replay mode.
+- `-swapcores`: Swap CPU cores.
+- `-heapcheck`: Enable heap checking.
+- `-phonehome`: Enable phone home functionality.
+- `-bi`: Enable BI (Business Intelligence).
+- `-publicbuild`: Enable public build settings.
+- `-noclearsave`: Disable clearing of save data.
+- `-dumpvidmemstats`: Dump video memory statistics.
+- `-usereslistfile`: Use a resource list file.
+- `-rebuildaudio`: Rebuild audio data.
+- `-trackdeletions`: Track deletions.
+- `-startmap`: Start with a specific map.
+- `-norebuildaudio`: Disable audio rebuilding.
+- `-forever`: Run indefinitely.
+- `-startwindowed`, `-windowed`: Start in windowed mode.
+- `-full`, `-fullscreen`: Start in fullscreen mode.
+- `-width`, `-w`: Set the window width.
+- `-height`, `-h`: Set the window height.
+- `-displayindex`: Set the display index.
+- `-safe`: Enable safe mode.
+- `-autoconfig`: Enable auto-configuration.
+- `-requirecubemaps`: Require cubemaps.
+- `-xnet_bypass_security`: Bypass XNet security.
+- `-reuse`: Enable reuse mode.
+- `-strictportbind`: Enable strict port binding.
+- `-usercon`: Enable user console.
+- `-NoQueuedPacketThread`: Disable queued packet thread.
+- `-nodns`: Disable DNS.
+- `-usetcp`: Use TCP.
+- `-nohltv`: Disable HLTV.
+- `-noip`: Disable IP.
+- `-flushlog`: Flush the log.
+- `-NoLoadPluginsForClient`: Disable loading plugins for the client.
+- `-allowstalezip`: Allow stale ZIP files.
+- `-netspike`: Enable network spike debugging.
+- `-steamport`: Set the Steam port.
+- `-hushsteam`: Silence Steam.
+- `-nogamestats`: Disable game statistics.
+- `-nomessagebox`: Disable message boxes.
+- `-minmemory`: Minimize memory usage.
+- `-nodttest`: Disable DT test.
+- `-random_invariant`: Enable random invariant.
+- `-nobreakpad`: Disable Breakpad.
+- `-full_memory_dumps`: Enable full memory dumps.
+- `-vr`: Enable VR mode.
+- `-sv_benchmark`: Enable server benchmark mode.
+- `-dumplongticks`: Dump long ticks.
+- `+sv_pure`, `-sv_pure`, `-sv_pure_verify_hashes`: Enable or disable pure server mode and verify hashes.
+- `-debugstartupscreen`: Enable debug startup screen.
+- `-noshaderapi`: Disable shader API.
+- `-noborder`: Disable window borders.
+- `-small`: Enable small mode.
+- `-endgamevid`, `-recapvid`: Enable end game or recap videos.
+- `-novid`: Disable videos.
+- `-textmessagedebug`: Enable text message debugging.
+- `-hideconsole`: Hide the console.
+- `-toconsole`, `-console`, `-rpt`, `-allowdebug`: Enable console or report mode and allow debugging.
+- `-profile`, `-etwprofile`: Enable profiling or ETW profiling.
+- `-xlsp`: Enable XLSP.
+- `-valveinternal`: Enable Valve internal mode.
+- `-ds`: Enable DS mode.
+- `-log_opened_files`: Log opened files.
+- `-dvd`, `-dvddev`: Enable DVD or DVD development mode.
+- `-fs_logbins`: Log file system bins.
+- `-fs_nopreloaddata`: Disable preloading data.
+- `-noasync`: Disable asynchronous operations.
+- `-steamlocal`: Enable Steam local mode.
+- `-noqueuedload`: Disable queued loading.
+- `-g15`: Enable G15 keyboard support.
+- `-noff`: Disable force feedback.
+- `-filmgrain`: Enable film grain effect.
+- `-nosteamdatagram`: Disable Steam Datagram.
+- `-menupaintduringinit`: Enable menu painting during initialization.
+- `-precachefontchars`, `-precachefontintlchars`: Precache font characters.
+- `-nobots`: Disable bots.
+- `-tickrate`: Set the server tick rate.
+- `-gamestatsloggingtofile`: Log game statistics to a file.
+- `-ugcpath`: Set the UGC path.
+- `-gamestatsfileoutputonly`: Enable game statistics file output only.
+- `-bugbait`: Enable bug bait mode.
+- `-sillygibs`: Enable silly gibs.
+- `-nostartupsound`: Disable startup sound.
+- `-raiseonassert`: Raise on assert.
+- `-chooseconfig`: Choose configuration.
+- `-NewDialogs`: Enable new dialogs.
+- `-nop4`: Disable Perforce integration.
+- `-nosteamcontroller`: Disable Steam controller support.
+- `-nojoy`: Disable joystick support.
+- `-edit`: Enable edit mode.
+- `-startmap`, `-startstage`: Start with a specific map or stage.
+- `-tools`, `-nop4`, `-p4`: Enable tools mode and Perforce integration.
+- `-sleepatstartup`: Sleep at startup.
+- `-dllinfo`: Enable DLL information.
+- `-vxconsole`: Enable VX console.
+- `-multirun`: Enable multiple runs.
+- `-hijack`: Enable hijack mode.
+- `-low`: Enable low priority mode.
+- `-high`: Enable high priority mode.
+- `-leakcheck`: Enable leak checking.
+- `-collate`: Enable collation.
+- `-forceallmips`: Force all MIP levels.
+- `-matscan`: Enable material scanning.
+- `-no_gpu_buffer_allocator`: Disable GPU buffer allocator.
+- `-glslmode`: Enable GLSL mode.
+- `-glslcontrolflow`, `-noglslcontrolflow`: Enable or disable GLSL control flow.
+- `-disallowhwmorph`: Disallow hardware morphing.
+- `-disable_d3d9_hacks`: Disable D3D9 hacks.
+- `-debugdxsupport`: Enable DirectX support debugging.
+- `-ignoredxsupportcfg`: Ignore DirectX support configuration.
+- `-arbmode`, `-nouserclip`: Enable ARB mode or disable user clipping.
+- `-floathdr`: Enable floating-point HDR.
+- `-nod3d9ex`: Disable D3D9Ex.
+- `-force_device_id`: Force a specific device ID.
+- `-force_vendor_id`: Force a specific vendor ID.
+- `-nops2b`: Disable PS2B.
+- `-mat_softwaretl`: Enable software T&L.
+- `-limitvsconst`: Limit vertex shader constants.
+- `-nouserclip`: Disable user clipping.
+- `-nosrgb`: Disable sRGB.
+- `-no_compressed_verts`: Disable compressed vertices.
+- `-forcenovsync`: Force no VSync.
+- `-shadersondemand`: Enable shaders on demand.
+- `-testshaders`: Enable shader testing.
+- `-glmspew`: Enable GLM spew.
+- `-softparticlesdefaultoff`, `-softparticlesdefaulton`: Enable or disable soft particles by default.
+- `-no_texture_stream`: Disable texture streaming.
+- `-tempcontent`: Enable temporary content.
+- `-caps_noclipplanes`: Disable clipping planes.
+- `-disablemaxvertexshaderconstanthints`: Disable max vertex shader constant hints.
+- `-runhammer`: Run Hammer editor.
+- `-runmodelviewer`: Run model viewer.
+- `-runfaceposer`: Run Face Poser.
+- `-AutoHL2Mod`: Enable automatic HL2 mod.
+- `-CreateMod`: Create a mod.
+- `-hushasserts`: Silence asserts.
+- `-enable_keyvalues_cache`: Enable KeyValues cache.
+- `-gl_time_shader_compiles`: Time shader compiles.
+- `-gl_validate_shader_early`: Validate shaders early.
+- `-dumpallshaders`: Dump all shaders.
+- `-disable_srgbtex`: Disable sRGB textures.
+- `-glmspewallsrgbflips`, `-glmspewfirstsrgbflips`, `-glmspewfreqsrgbflips`, `-glmspewsrgbcrawls`, `-glmspewsrgbmaxcrawls`: Enable various GLM spew options for sRGB flips.
+- `-glmnosrgbflips`: Disable sRGB flips.
+- `-glmenabletrustmsaa`: Enable trusted MSAA.
+- `-disableboneuniformbuffers`: Disable bone uniform buffers.
+- `-gl_nv_bindless_texturing`: Enable NV bindless texturing.
+- `-gl_amd_pinned_memory`: Enable AMD pinned memory.
+- `-gl_disable_arb_buffer_storage`: Disable ARB buffer storage.
+- `-glmnosrgbdecode`: Disable sRGB decode.
+- `-gl_disablesamplerobjects`, `-gl_enablesamplerobjects`: Enable or disable sampler objects.
+- `-gl_texclientstorage`: Enable texture client storage.
+- `-glmassertslow`, `-glmspewslow`, `-glcheckerrors`: Enable various GLM assertions and error checking.
+- `-glmspewcaps`: Enable GLM caps spew.
+- `-glmwriteallslots`, `-glmwriteshaderslots`, `-glmwriteshaderslotsoptional`, `-glmwritedirtyslotrange`, `-glmwriteallattribs`, `-glmwritedirtyattribs`: Enable various GLM write options.
+- `-glmenablemtgl2`, `-glmdisablemtgl2`: Enable or disable MTGL2.
+- `-noprintconsole`, `-noprintdebugger`, `-noprintoglp`: Disable various print options.
+- `-glmbootspew`: Enable GLM boot spew.
+- `-BudgetPanel`: Enable budget panel.
+- `-bench`: Enable benchmarking.
+- `-softwaretl`: Enable software T&L.
+- `-coe`, `-continueOnError`: Continue on error.
+- `-h`, `-help`: Show help.
+- `-wiki`: Show wiki.
+- `-portal`: Enable portal mode.
+- `-NoSteamDialog`: Disable Steam dialog.
+- `-perplayerexpressions`: Enable per-player expressions.
+- `-nosort`: Disable sorting.
+- `-olddialogs`: Enable old dialogs.
+- `-NoSteamdDialog`: Disable Steam dialog.
+- `-screenshot`: Enable screenshot mode.
+- `-nozoom`: Disable zoom.
+- `-showasset`: Show asset.
+- `-showcomboeditor`: Show combo editor.
+- `-nosfm`: Disable SFM.
+- `-mp3`: Enable MP3 support.
+- `-nointercept`: Disable intercept.
+- `-debugwait`: Enable debug wait.
+- `-verbose`: Enable verbose mode.
+- `-subprocess`: Enable subprocess mode.
+- `-x360`: Enable Xbox 360 mode.
+- `-nompi`: Disable MPI.
+- `-mpi_NoScheduler`: Disable MPI scheduler.
+- `-PatchHost`: Enable patch host.
+- `-crcvalidate`: Enable CRC validation.
+- `-crcforce`: Force CRC.
+- `-deducepath`: Deduce path.
+- `-quickconvert`: Enable quick convert.
+- `-p4skip`: Skip Perforce.
+- `-mip`: Enable MIP.
+- `-v`, `-version`: Show version.
+- `-?`, `-h`, `-help`: Show help.
+- `-recurse`, `-r`: Enable recursion.
+- `-force`, `-f`: Force mode.
+- `-quiet`, `-q`: Enable quiet mode.
+- `-scenes`: Enable scenes.
+- `-pcscenes`: Enable PC scenes.
+- `-usemaplist`: Use map list.
+- `-z`: Enable Z mode.
+- `-zo`: Enable ZO mode.
+- `-preloadinfo`: Enable preload info.
+- `-syncoutput`: Enable sync output.
+- `-p`, `-percent`: Enable percent mode.
+- `-b`, `-bytes`: Enable bytes mode.
+- `-ss`: Enable SS mode.
+- `-names`: Enable names mode.
+- `-vguifocus`: Enable VGUI focus.
+- `-ccsyntax`: Enable CC syntax.
+- `-vguimessages`: Enable VGUI messages.
+- `-disable_matsurf_noculls`: Disable material surface no culls.
+- `-noquicktime`: Disable QuickTime.
